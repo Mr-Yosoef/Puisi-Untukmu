@@ -4,30 +4,41 @@
     <title>Puisi Cinta</title>
     <style>
         body {
-            font-family: 'Times New Roman', serif;
-            font-size: 16px;
-            line-height: 1.7;
-            color: #444;
-            margin: 30px auto;
-            max-width: 700px;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            font-family: 'Book Antiqua', serif;
+            font-size: 17px;
+            line-height: 1.8;
+            color: #2e2e2e;
+            margin: 50px auto;
+            max-width: 650px;
+            padding: 30px;
+            background-color: #f8f8f8;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+            text-align: justify;
+            text-justify: inter-word;
         }
         h1 {
-            font-size: 24px;
-            margin-bottom: 30px;
-            color: #555;
+            font-family: 'Garamond', serif;
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: #333;
+            text-align: center;
         }
         p {
-            margin-bottom: 20px;
-            text-align: justify;
-            text-justify: inter-word; /* Untuk IE */
-            text-align-last: center;
+            margin-bottom: 25px;
+            text-indent: 30px; /* Indentasi paragraf */
+            text-align-last: left; /* Baris terakhir rata kiri */
         }
         audio {
-            margin-top: 20px;
-            width: 100%; /* Lebar audio player menyesuaikan */
+            margin-top: 30px;
+            width: 100%;
+        }
+        /* Gaya untuk nama penulis */
+        p.author {
+            text-align: right;
+            text-indent: 0;
+            margin-top: 50px;
+            font-style: italic;
+            color: #555;
         }
     </style>
 </head>
@@ -37,7 +48,7 @@
         Your browser does not support the audio element.
     </audio>
 
-    <h1>Bidadari Surga</h1>
+    <h1>Puisi Cinta</h1>
 
     <p>Dunia ini sementara, tetapi kasih sayangku selamanya dan nyata.</p>
     <p>Aku tidak tahu bagaimana mendeskripsikan keindahanmu secara sempurna, karena tidak ada ungkapan yang cukup untuk mendefinisikan yang luar biasa.</p>
@@ -51,7 +62,7 @@
     <p>Seseorang yang membuatku bersyukur setiap waktu.</p>
     <p>Karena dalam kehidupanku yang sunyi dan kosong ini, aku memiliki seseorang yang menjadi alasan aku ingin hidup selama seribu tahun lagi.</p>
     <p>Aku belum pernah merasakan cinta yang sedalam dan sebesar ini.</p>
-    <br>
-    <p>Muhammad Rizal Maulana Yosef</p>
+
+    <p class="author">Muhammad Rizal Maulana Yosef</p>
 </body>
 </html>
